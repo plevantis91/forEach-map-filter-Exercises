@@ -1,0 +1,124 @@
+body{
+    background-color:rgb(133, 138, 144);
+    margin: 0;
+}
+#meme-form{
+    background-color: #333333;
+   
+    margin: 0;
+}
+
+h1{
+    position: relative;
+    background-color: #333333;
+    text-align: center;
+    text-decoration: underline;
+    margin: 0 auto;
+    color: white;
+    font-size: 60px;
+    z-index: 100;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.gen {
+  width: 80%;
+  padding: 5px;
+  display: grid;
+  border: 2px solid black;
+  top: 50%;
+  left: 50%;
+}
+
+label{
+    color: white;
+ 
+}
+
+#submit{
+    border-radius: 5px;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 15px;
+    padding: 15px;
+    left: 50%;
+   
+    
+}
+
+#submit:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+
+.bottom-text{
+    position: absolute;
+}
+
+.meme-list{
+    list-style: none;
+    width: 100%;
+}
+
+.new-meme{
+    display: inline-block;
+    margin: 1%;
+    width: 501px;
+    height: auto;
+    
+
+}
+
+img{
+    width: 500px;
+}
+
+.remove{
+    background-color: white;
+    width: 50px;
+    height: 25px;
+    content: "X";
+    position: relative;
+    top: 51%;
+    left: 51%;
+    /* transform: translate(-50%, 67%); */
+    font-weight: 700;
+    text-align: center;
+    opacity: 0;
+    z-index: 21;
+}
+
+/* .remove:hover{
+    opacity: 1.7;
+    z-index: 21;
+} */
+
+.text{
+    position: relative;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 50px;
+    font-size: 50px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%)
+
+}
+
+.top{
+    position: absolute;
+    top: 0;
+    z-index: 9;
+    max-height: 51%;
+}
+
+.bottom{
+    position: absolute;
+    bottom: 0;
+    z-index: 9;
+    max-height: 51%;
+}

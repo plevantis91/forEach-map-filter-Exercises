@@ -1,0 +1,19 @@
+var PI = 3.14;
+PI = 42; // stop me from doing this!
+
+const PI = 3.14;
+PI = 3.14;
+/* Write an ES2015 Version */
+
+
+What is the difference between var and let?
+- Let creates a block scope and cannot be redeclared but can be reassigned. Var can be reassigned and redeclared.
+
+What is the difference between var and const?
+-Const is a block scope and cannot be reassigned or redeclared. Var can be reassigned and redeclared. Var can also be hoisted variable.
+
+What is the difference between let and const?
+-Let can be reassigned but not redeclared while const cannot reassigned or be redeclared.
+
+What is hoisting?
+- Hoisting is the mechanism where all declarations like functions and variables are moved to the top of scored before the execution of the code.
